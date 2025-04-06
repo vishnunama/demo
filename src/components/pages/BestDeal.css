@@ -1,0 +1,147 @@
+.bestdeal-main-container {
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+
+}
+
+.bestdealbox1 {
+    border: 1px solid #F3F3F7;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: start; */
+    border-radius: 5px;
+    height: 95vh;
+    background-color: white;
+}
+
+.bestdeal-row1 {
+    /* align-items: start; */
+    text-align: start;
+}
+
+.bestdeal-row1 h5 {
+    color: #1455AC;
+    font-size: xx-large;
+}
+
+.bestdeal-row1 h4 {
+    width: 130px;
+    font-size: 15px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1455AC;
+}
+
+.bestdeal-row1 .button {
+    padding: 10px 20px;
+    background: #1455AC;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: all 250ms ease-in-out;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.bestdeal-row1 .button:hover {
+    background-color: rgb(62, 52, 195);
+}
+
+.bestdeal-row2 img {
+    border-radius: 10px;
+}
+
+.bestdealbox2 {
+    border: 1px solid #F3F3F7;
+    padding-top: 50px;
+    width: 100%;
+    /* display: flex; */
+    /* text-align: start; */
+    border-radius: 5px;
+    height: 95vh;
+    background-color: white;
+}
+
+.bestdealbox2 h4 {
+    text-align: start;
+    margin-left: 40px;
+}
+
+.dealitembox {
+    width: 100%;
+    padding: 5px 40px;
+}
+
+.dealrow1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.dealrow2{
+    display: flex;
+    justify-content: space-between;
+}
+.dealrow3{
+    
+    display: flex;
+    gap: 4rem;
+}
+
+
+.dealrow1 img:hover {
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    transform: scale(1.07);
+}
+
+.rate {
+    display: flex;
+    gap: 5px;
+}
+
+.dealrow1 .itme1 .line-through {
+    text-decoration: line-through;
+}
+
+.dealrow1 .itme1 b {
+    color: blue;
+}
+
+.dealrow2 {
+    display: flex;
+    gap: 100px;
+}
+
+.dealrow2 .itme1 .line-through {
+    text-decoration: line-through;
+}
+
+.dealrow2 .itme1 b {
+    color: blue;
+}
+
+.bestdeal-price{
+    display: flex;
+    gap: 1rem;
+}
+.bestdeal-price p{
+    font-size: 2rem;
+    color: #1455AC;
+    font-weight: 500;
+}
+.bestdeal-price span{
+    color: #666666;
+    text-decoration: line-through;
+}

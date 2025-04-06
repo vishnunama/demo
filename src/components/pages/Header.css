@@ -1,0 +1,100 @@
+.header-right__inner{
+    padding: 0px;
+}
+/* Add this to your Header.css file */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    /* or whatever background color you want */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow to make it stand out */
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1040;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar-body {
+    padding: 1rem;
+}
+
+.sidebar-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-body ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar-body ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    display: none;
+}
+
+@media(max-width: 800px){
+    .btn-primary {
+        display: block;
+
+    }
+        .flx-between{
+            justify-content: space-between;
+        }
+
+.image-logo-in{
+    max-width: 50px;
+    width: 100%;
+}
+
+.create-account{
+    font-size: clamp(0.2rem, 3vw, 0.8rem);
+}
+
+.logo img {
+    width: 100%;
+    max-width: 140px;
+}
+
+}
+
+@media screen and (max-width: 380px) {
+    .logo img {
+        width: 100%;
+        max-width: 100px;
+    }
+}
+
+
+
